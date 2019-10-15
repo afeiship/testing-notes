@@ -1,8 +1,8 @@
 // https://jestjs.io/docs/en/configuration
 module.exports = {
-  verbose: true,
+  verbose: false,
   testRegex: [/\.spec.js/],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1'
+    '^@/(.*)$': '<rootDir>/src/$1',
   }
 };
