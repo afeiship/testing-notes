@@ -1,11 +1,15 @@
 {
-  "name": "testing notes",
+  "name": "testing-notes",
   "version": "1.0.0",
-  "description": "Nots for how to testing my code.",
-  "homepage": "https://github.com/afeiship",
+  "description": "Notes for how to testing my code.",
+  "homepage": "https://github.com/afeiship/testing-notes",
   "author": {
     "name": "afeiship",
     "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack -p"
   },
   "main": "index.js",
   "license": "MIT",

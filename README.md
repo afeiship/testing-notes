@@ -1,5 +1,5 @@
 # testing notes
-> Nots for how to testing my code.
+> Notes for how to testing my code.
 
 
 ## resources
