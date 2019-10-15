@@ -2,5 +2,7 @@
 module.exports = {
   verbose: true,
   testRegex: [/\.spec.js/],
-  modulePaths: ['/src']
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1'
+  }
 };

@@ -1,4 +1,4 @@
-const { sum } = require('001-pure-js/sum');
+const { sum } = require('@/001-pure-js/sum');
 
 describe('pure-js - sum', () => {
   test('100 + 101 should be 201', () => {
