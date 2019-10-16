@@ -6,6 +6,7 @@ class App {
   constructor() {
     this._form = document.querySelector('.e2e-test');
     this._btn = document.querySelector('#btn-submit');
+    this._result = document.querySelector('#result');
     this.attachEvents();
   }
   attachEvents() {
@@ -19,6 +20,7 @@ class App {
         username: fullName,
         password: password
       });
+      this._result.innerHTML = fullName;
     };
   }
   detachEvents() {

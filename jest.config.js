@@ -1,6 +1,6 @@
 // https://jestjs.io/docs/en/configuration
 module.exports = {
-  verbose: false,
+  verbose: true,
   testRegex: [/\.spec.js/],
   preset: 'jest-puppeteer',
   moduleNameMapper: {
