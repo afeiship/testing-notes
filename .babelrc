@@ -7,6 +7,12 @@
         "legacy": true
       }
     ],
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ],
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-transform-spread",
     "@babel/plugin-proposal-object-rest-spread",

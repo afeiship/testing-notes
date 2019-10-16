@@ -2,7 +2,8 @@
 module.exports = {
   verbose: false,
   testRegex: [/\.spec.js/],
+  preset: 'jest-puppeteer',
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@/(.*)$': '<rootDir>/src/$1'
   }
 };
