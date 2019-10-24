@@ -49,3 +49,4 @@ describe('App', () => {
 
 ## resources
 - https://www.robinwieruch.de/react-testing-jest-enzyme
+- https://jestjs.io/docs/zh-Hans/tutorial-react
