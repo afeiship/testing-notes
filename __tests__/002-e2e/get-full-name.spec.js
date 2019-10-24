@@ -1,4 +1,4 @@
-const { getFullName } = require('@/002-integration-e2e/utils');
+const { getFullName } = require('@/src/002-integration-e2e/utils');
 
 describe('e2e api test', () => {
   test('firstName & lastName are exist', () => {
