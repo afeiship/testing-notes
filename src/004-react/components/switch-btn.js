@@ -29,16 +29,6 @@ export default class extends React.Component {
     this.setState({ value: !value });
   };
 
-  // shouldComponentUpdate(inNextProps, inNextState) {
-  //   const { value: stateValue } = inNextState;
-  //   const { value: propsValue } = inNextProps;
-  //   const changed = stateValue !== propsValue;
-  //   if (changed) {
-  //     this.setState({ value: propsValue });
-  //   }
-  //   return changed;
-  // }
-
   render() {
     const { className, value, ...props } = this.props;
     const _value = this.state.value;
