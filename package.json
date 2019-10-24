@@ -8,7 +8,8 @@
     "email": "1290657123@qq.com"
   },
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
+    "testw": "jest --watch",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --env.type=react",
     "build": "cross-env NODE_ENV=production webpack -p"
   },
